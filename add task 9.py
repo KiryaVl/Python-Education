@@ -34,7 +34,6 @@ def product(list):
     for i in range(len(list)):
         if list[i] == min(list):
             minimum = i
-    print(maximum, minimum)
     if minimum > maximum:
         minimum, maximum = maximum, minimum
     for i in range(minimum + 1, maximum ):

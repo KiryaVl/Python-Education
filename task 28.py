@@ -2,12 +2,13 @@
 # Input -> 2 2
 # Output = 4
 
-def sum (a, b):
+def sum(a, b):
     if a == 0:
-        return b 
+        return b
     elif b == 0:
         return a
-    return sum(a - 1, b + 1) 
+    return sum(a - 1, b + 1)
+
 
 a = int(input("Первое число: "))
 b = int(input("Второе: "))
